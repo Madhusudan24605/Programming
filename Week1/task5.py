@@ -1,7 +1,9 @@
 # task 5
-
-num1=input("enter the width in meters:")
-num2 =input("enter the height in meters:")
-print(f"width is {num1} m and  height is {num2} m")
-area = int(num1) * int(num2)
-print(f" the wall will be { area } square meters.")
+print("Calculate the area of a wall.")
+feed=input("Enter the width in meters:")
+width=int(feed)
+feed =input("Enter the height in meters:")
+height=int(feed)
+print(f"Width is {width} m and height is {height} m.")
+area = (width * height)
+print(f"The wall will be { area } square meters.")
