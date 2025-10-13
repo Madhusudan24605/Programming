@@ -1,12 +1,6 @@
-<<<<<<< HEAD
+
 print("Program starting.")
 brand = input("Insert car brand: ")
 model = input("Insert car model: ")
 print(f'Car brand is "{brand}" and the model is \'{model}\'.')
-=======
-print("Program starting.")
-brand = input("Insert car brand: ")
-model = input("Insert car model: ")
-print(f'Car brand is "{brand}" and the model is \'{model}\'.')
->>>>>>> origin
 print("Program ending.")
