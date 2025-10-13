@@ -13,7 +13,7 @@ choice = int(input("Your choice: "))
 if choice == 1:
     print("Using multiple independent if-statement decisions.")
     if value >= 400:
-        value += 44
+        value += 44                                                                       
     elif value >= 200:
         value += 22
     elif value >= 100:
