@@ -1,4 +1,3 @@
-
 print("Program starting.")
 feed = int(input("Insert a positive integer: "))
 sequences = [feed]  # Use a list to store the sequence
@@ -14,4 +13,5 @@ while feed != 1:
 
 print(' -> '.join(str(num) for num in sequences))
 print(f"Sequence had {step} total steps.\n")
+print("Program ending.")
 print("Program ending.")
