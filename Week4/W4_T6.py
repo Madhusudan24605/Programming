@@ -1,6 +1,7 @@
+
 print("Program starting.")
 feed = int(input("Insert a positive integer: "))
-sequences = feed
+sequences = [feed]  # Use a list to store the sequence
 step = 0
 
 while feed != 1:
@@ -8,8 +9,9 @@ while feed != 1:
         feed = feed // 2
     else:
         feed = (feed * 3) + 1
-    sequences = sequences, feed
+    sequences.append(feed)
     step += 1
-print(' -> '.join(str(feed) for feed in sequences))
-print(f"Sequence had {step} steps.")
-print("\n\nProgram ending.")
+
+print(' -> '.join(str(num) for num in sequences))
+print(f"Sequence had {step} total steps.\n")
+print("Program ending.")
